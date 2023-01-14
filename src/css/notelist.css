@@ -1,0 +1,26 @@
+.note-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%!important;
+    margin-left: 1000px;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.note-list, .ui.card:first-child{
+    margin: 1rem;
+}
+
+.note-list, .ui.card{
+    margin-bottom: none;
+    margin: 1rem;
+}
+
+.note-list, .ui.card:last-child{
+    margin: 1rem;
+}
